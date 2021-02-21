@@ -6,7 +6,7 @@ song_table_drop = "DROP TABLE IF EXISTS songs;"
 artist_table_drop = "DROP TABLE IF EXISTS artists;"
 time_table_drop = "DROP TABLE IF EXISTS time;"
 
-# CREATE TABLES
+# CREATE TABLES for dimensions and facts
 
 songplay_table_create = (""" CREATE TABLE IF NOT EXISTS songplays (
                              songplay_id SERIAL PRIMARY KEY, 
